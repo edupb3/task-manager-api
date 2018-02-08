@@ -30,6 +30,14 @@ RSpec.describe 'Users API', type: :request do
         expect(response).to have_http_status(404)
       end
     end
+  end
+  
+  describe 'POST /users' do
+    context 'when the request params are valid' do
+    end
+    
+    context 'when the request params are invalid' do
+    end
     
   end
   
